@@ -1,3 +1,10 @@
+This is a fork of the original repository. This fork focuses on the Docker container and running a development test server.
+It has the following features:
+- Runs the CashShuffle server in debug mode.
+- Adds shell scripts for easily building and running the Docker container.
+
+----
+
 [![License][License-Image]][License-URL] [![ReportCard][ReportCard-Image]][ReportCard-URL] [![Build][Build-Status-Image]][Build-Status-URL]
 # cashshuffle
 

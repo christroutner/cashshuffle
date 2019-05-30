@@ -17,7 +17,7 @@ ARG GO111MODULE=on
 RUN make install
 
 # Set the start command.
-ENTRYPOINT ["/go/bin/cashshuffle"]
+ENTRYPOINT ["/go/bin/cashshuffle", "--pool-size=3", "--debug"]
 
 # Document that the service listens on ports 1337 and 8080.
 EXPOSE 1337 1338 8080
